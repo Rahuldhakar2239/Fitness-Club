@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    margin-bottom: -15px;
+    padding-top: 30px;
+}
+.footer-logo{
+    margin-top: -5px;
+}
+.fitness{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.club{
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+.club_text{
+    color: rgb(219, 218, 218);
+}
+
+.social_media_icon{
+    height: 1.5em;
+    width: 1.5em;
+    color: white;
+    cursor: pointer;
+    margin: 0em 1em;
+}
+
+.useful_and_support_links{
+    display: flex;
+}
+.support_links_div{
+    margin-left: 60px;
+    color: white;
+}
+.useful_links_div{
+    margin-left: 50px;
+    color: white;
+}
+.useful_links{
+    color: white;
+    cursor: pointer;
+}
+
+.useful_links:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.tips_guides{
+    color: white;
+}
+.blog1,.blog2{
+    color: white;
+}
+
+.blog1:hover,.blog2:hover{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    width: 100%;
+    background-color: rgb(190, 185, 185);
+}
+
+.footer_rights{
+    text-align: center;
+    color: rgb(204, 199, 199);
+    padding-bottom: 25px;
+}
+@media screen and (max-width: 1010px) {
+    .social_media_icon{
+        width: 1.2em;
+        margin: 0em 0.6em;
+      }
+      .tips_guides{
+          margin-left: 10px;
+      }
+      .useful_links_div{
+        margin-left: -2px;
+    }
+    .support_links_div{
+        margin-left: 30px;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .support_links_div{
+        margin-left: 40px;
+    }
+    .useful_links_div{
+        margin-left: -2px;
+    }
+  }

@@ -1,0 +1,49 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.trainerbg{
+    background-color: rgb(41, 40, 40);
+    margin-top: -48px;
+}
+.trainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.trainer .textTitle{
+    color: white;
+}
+.training_subtitle_para{
+    color: rgb(204, 200, 200);
+}
+
+.row{
+    justify-content: space-around;
+}
+.card{
+    border: none;
+}
+ .aboutpic{
+    height:280px;
+    object-fit: cover;
+ } 
+
+ .explore_btn{
+     color: orangered;
+     font-weight: bold;
+     padding: 8px;
+     border-radius: 4px;
+     background-color: rgb(255, 252, 252);
+     border: 1px solid rgb(177, 172, 172);
+     box-shadow: 0 0 5px rgb(177, 172, 172);
+     margin-bottom: 18px;
+ }
+
+ .explore_btn:hover{
+     background-color:rgb(247, 242, 242) ;
+ }
+

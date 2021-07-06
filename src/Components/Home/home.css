@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+  background-image: url("../../Images/homepage.jpg");
+  background-size: contain;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items:flex-end; */
+  align-items: center;
+}
+
+.home_title {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  transition: 1.2s;
+}
+.home_title .subtitle {
+  color: white;
+}
+
+.get_start_btn {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid orangered;
+  border-radius: 6px;
+  font-size: 1.2em;
+  font-weight: 410;
+  padding: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.get_start_btn:hover {
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+
+.Icons_container{
+    background-color: rgb(36, 34, 34);
+}
+
+
+.choose_us{
+    color: orangered;
+    text-align: center;
+    padding-top: 39px;
+}
+
+.limit_forward{
+    color: white;
+    text-align: center;
+}
+
+.Icon_card{
+    background-color: rgb(36, 34, 34);
+    border: none;
+    /* border: 1px solid white; */
+}
+
+.icon_div{
+    text-align: center;
+    padding: 10px;
+}
+.cggym_icon{
+    font-size: 100px;
+    color: orangered;
+    background-color: rgb(56, 51, 51);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.Icon_card:hover .cggym_icon{
+    color: white;
+    background-color: orangered;
+}
+
+
+@media screen and (max-width: 1025px) {
+  .banner{
+        min-height: 80vh;
+    }
+}
+@media screen and (max-width: 1010px) {
+  .banner{
+        min-height: 80vh;
+    }
+}
+@media screen and (max-width: 770px) {
+  .banner{
+        min-height: 70vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    min-height: 60vh;
+    padding: 10px;
+  }
+
+  .strong_title {
+    font-size: 35px;
+  }
+  .home_title {
+    font-size: small;
+  }
+  .home_title .subtitle {
+    font-size: 26px;
+  }
+
+  .get_start_btn {
+    font-size: 1em;
+    font-weight: 410;
+    padding: 10px;
+    letter-spacing: 1.2px;
+  }
+  .get_start_btn:hover {
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .icon_div{
+    padding: 6px;
+}
+.banner {
+  min-height: 50vh;
+  padding: 5px;
+}
+.strong_title {
+  font-size: 30px;
+}
+.home_title {
+  font-size: small;
+}
+.home_title .subtitle {
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 361px) {
+
+.strong_title {
+  font-size: 25px;
+}
+.home_title .subtitle {
+  font-size: 15px;
+}
+}

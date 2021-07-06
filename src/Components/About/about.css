@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about{
+    position: relative;
+    background-image: url("./aboutImages/TryWithUs.jpg");
+    background-size: contain;
+    background-size: 100% 100%;
+    width:100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
+
+h2.about_title{
+    color:rgb(252, 249, 249);
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:1025px){
+    #about{
+        min-height: 60vh;
+    }
+    h2.about_title{
+        padding-bottom: 35px;
+    }
+    
+}
+
+@media screen and (max-width:1010px){
+    #about{
+        min-height: 60vh;
+    }
+    h2.about_title{
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #about{
+        min-height: 50vh;
+    }
+    h2.about_title{
+        font-size: 25px;
+    }
+    
+} 
+
+@media screen and (max-width:400px){
+    #about{
+        min-height: 45vh;
+    }
+    h2.about_title{
+        font-size: 24px;
+    }
+}

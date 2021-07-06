@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Experts{
+    margin-bottom: 0px;
+}
+.expert_image{
+    width: 340px;
+    height:520px;
+}
+.our_team{
+    color: orangered;
+}
+.train_expert{
+    color: white;
+}
+
+.expert_card{
+    border: none;
+}
+
+.expert_name{
+    color: white;
+    height: 5%;
+    padding: 10px ;
+   display: none;
+   transform: skewY(-5deg);
+}
+
+.expert_card:hover .expert_name{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-top: 4px solid rgb(145, 143, 143);
+} 
+
+.learn_more_btn{
+    color: black;
+    background-color: white;
+    padding: 10px 70px 10px 70px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.learn_more_btn:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 237, 237);
+   
+}
+
+@media screen and (max-width: 1010px) {
+    .expert_image{
+          width: 300px;
+          height: 450px;
+      }
+      .train_expert{
+          font-size: 30px;
+      }
+  }
+
+  @media screen and (max-width: 768px){
+    .train_expert{
+        text-align: center;
+    }
+    .our_team{
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .expert_image{
+        width: 290px;
+        height: 370px;
+    }
+
+    .learn_more_btn{
+        padding: 10px 15px 10px 15px;
+    }
+    
+  }
+
+  @media screen and (max-width: 380px) {
+    .expert_image{
+        width: 290px;
+        height: 330px;
+    }
+    
+  }
+
