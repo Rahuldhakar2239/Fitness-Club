@@ -12,7 +12,7 @@ export default function Offers() {
                     <div>
                         <h1 className="offers_title-h1">Registration Now To Get More Deals</h1>
                         <h5 className="subtitle mb-4">where health, beauty and fitness meet</h5>
-                        <Link className="joinUs_btn" to="Offers_card" smooth={true} duration={800}> Jion us </Link>
+                        <Link className="joinUs_btn" to="Offers_card" smooth={true} duration={800}> Join us </Link>
                     </div>
                 </div>
             </section>

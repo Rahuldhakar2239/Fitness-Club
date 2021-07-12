@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import {Link as RouterLink} from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import "./Footer.css";
 export default function Footer() {
@@ -36,17 +37,17 @@ export default function Footer() {
                        <div className="useful_and_support_links">
                        <div className="useful_links_div">
                             <h5>Useful links</h5>
-                            <div> <Link className="useful_links"> About </Link></div>
-                            <div><Link className="useful_links"> Blog </Link></div>
-                            <div><Link  className="useful_links"> Classes </Link></div>
-                            <div><Link  className="useful_links"> Contact </Link></div>
+                            <div> <RouterLink className="useful_links" to="/about"> About </RouterLink></div>
+                            <div><RouterLink className="useful_links" to="offers"> Offers </RouterLink></div>
+                            <div><RouterLink  className="useful_links"to="/about"> Classes </RouterLink></div>
+                            <div><RouterLink  className="useful_links" to="/contact"> Contact </RouterLink></div>
                         </div>
                         <div className="support_links_div">
                             <h5>Support</h5>
                             <div> <Link  className="useful_links" > Login </Link></div>
                             <div><Link className="useful_links" > My account </Link></div>
                             <div><Link  className="useful_links" > Subscribe </Link></div>
-                            <div><Link  className="useful_links" > Contact </Link></div>
+                            <div><RouterLink  className="useful_links" to="/contact" > Contact </RouterLink></div>
                         </div>
                        </div>
                     </div>

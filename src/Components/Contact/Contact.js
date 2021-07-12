@@ -46,7 +46,7 @@ function Contact() {
                                     <input type="email" name="email" id="email" placeholder="Email" />
                                     <input type="text" name="website" id="website" placeholder="Website" />
                                     <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
-                                    <input type="submit" value="SUBMIT" />
+                                    <input type="submit" value="SUBMIT" id="submit" />
                                 </form>
                             </div>
                         </div>

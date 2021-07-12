@@ -1,5 +1,10 @@
+import React, { useState } from "react";
 import "./Offers_card.css";
+import "..//PopUp/PopUp.css";
+import Account from "../PopUp/PopUp";
 export default function Card(props) {
+const [Wrapper, SetWrapper] = useState(false);
+
     return (
         <>
             <div className="col-lg-3 col-md-6 col-sm-8 col-12  mt-5">
@@ -13,10 +18,10 @@ export default function Card(props) {
                     <p className="d-flex justify-content-center price_card_points"> Weight losing classes </p>
                     <p className="d-flex justify-content-center price_card_points"> Month to mouth </p>
                     <p className="d-flex justify-content-center price_card_points">  No time restriction </p>
-                    <button className="enrollNow_btn mb-4">Enroll Now</button>
+                    <button className="enrollNow_btn mb-4"onClick={() => SetWrapper(true)}>Enroll Now</button>
                 </div>
             </div>
-
+            <Account wrapperValue={Wrapper} SetWrapperValue={SetWrapper}/>
         </>
 
     )

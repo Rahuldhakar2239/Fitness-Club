@@ -12,7 +12,7 @@
     height: 75px;
     color: white;
     position: fixed;
-    z-index: 1000;
+    z-index:1000;
     width: 100%;
 }
 
@@ -28,10 +28,11 @@ ul{
 }
 .links{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 5px;
     margin: 0 10px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .links:hover{
     color: white;
@@ -50,7 +51,6 @@ ul{
 
 .signup li{
    background-color: white;
-    border-radius: 6px;
     color: black;
     box-shadow: 0 0 8px white;   
     padding: 7px;

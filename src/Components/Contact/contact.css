@@ -7,7 +7,6 @@
 #contact{
     background-color: rgb(32, 32, 32);
     width: 100%;
-    /* margin-top:-20px; */
     padding-top: 70px;
 }
 
@@ -41,11 +40,11 @@
     padding: 5px;
 }
 
-input[type="text"], input[type="email"]{
+#name,#email,#website{
     height: 45px;
 }
 
-input{
+#name,#email,#website,#submit{
     color: rgb(211, 211, 211);
     padding-left: 20px;
     padding-right: 5px;
@@ -55,7 +54,7 @@ input{
     margin-bottom: 32px;
 }
 
-input[type="submit"]{
+#submit{
     font-weight: 600;
     color: white;
     background-color:orangered;
