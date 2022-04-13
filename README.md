@@ -1,1 +1,1 @@
-website link: [gym-website1.netlify.app/](url)
+website link: gym-website1.netlify.app/
